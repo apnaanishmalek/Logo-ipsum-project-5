@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.br{border: 2px solid red;}
+.bg{border: 2px solid green;}
+.by{border: 2px solid yellow;}
+.bb{border: 2px solid black;}
+
+
+
+
+
+@media only screen and (max-width:600px){
+    .first-sec-container-left h1{
+        font-size: 8vw !important;
+    }
+
+    .input-div{
+        width: 330px !important;
+    }
+}
